@@ -5,29 +5,42 @@
 ************************/
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /************************
     GLOBALS
 ************************/
 .hb-container {
-  max-width: 1200px;
-  margin: 0 auto;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .display-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /************************
     TYPO
 ************************/
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: #000;
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+}
+
+.secondPage {
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      font-size: 100px;
+    }
 }

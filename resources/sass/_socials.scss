@@ -1,0 +1,35 @@
+.hb-container_social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  background-color: #303030;
+  padding: 40px 0px;
+}
+
+.cta {
+  a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border: 2px solid $color-primary;
+  }
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  a {
+    color: $color-primary;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0px 5px;
+  }
+
+  img {
+    width: 30px;
+  }
+}

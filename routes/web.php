@@ -14,5 +14,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('layout.app');
+    $array_comics = config('comics');
+    return view('home', ['comics' => $array_comics]);
+});
+
+Route::get('/secondPage', function () {
+    
+    return view('secondPage');
 });
